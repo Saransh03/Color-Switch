@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fx:id="img" fitHeight="134.0" fitWidth="593.0" layoutX="3.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Circle fx:id="c1" fill="#1f93ff00" layoutX="290.0" layoutY="272.0" radius="118.0" stroke="#e87ecd" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 50;" />
+      <Circle fx:id="c2" fill="#1f93ff00" layoutX="290.0" layoutY="272.0" radius="85.0" stroke="#1f35fc" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 60;" />
+      <Circle fx:id="c3" fill="#1f93ff00" layoutX="290.0" layoutY="272.0" radius="53.0" stroke="#ddfa20" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 60;" />
+      <Button layoutX="211.0" layoutY="437.0" mnemonicParsing="false" onAction="#fn" prefHeight="48.0" prefWidth="161.0" style="-fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 ); -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-font-size: 20px; -fx-font-style: italic; -fx-padding: 8 15 15 15; -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0; -fx-background-radius: 8; -fx-font-weight: bold;" text="Enter" />
+      <Button layoutX="211.0" layoutY="521.0" mnemonicParsing="false" onAction="#exit" prefHeight="45.0" prefWidth="161.0" style="-fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),        #9d4024,        #d86e3a,        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); -fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 ); -fx-font-size: 20px; -fx-font-style: italic; -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0; -fx-font-weight: bold; -fx-background-radius: 8;" text="Exit" />
+   </children>
+</AnchorPane>

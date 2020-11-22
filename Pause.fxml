@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #bce6eb;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerforPause">
+   <children>
+      <Button layoutX="215.0" layoutY="47.0" mnemonicParsing="false" onAction="#resume" prefHeight="55.0" prefWidth="152.0" style="-fx-background-color: #a6b5c9,        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%); -fx-font-size: 15px; -fx-background-insets: 0 0 -1 0,0,1; -fx-font-style: italic; -fx-background-radius: 5,5,4; -fx-padding: 7 30 7 30; -fx-text-fill: #242d35; -fx-font-family: &quot;Helvetica&quot;; -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );" text="Resume" />
+      <Button layoutX="215.0" layoutY="128.0" mnemonicParsing="false" onAction="#restart" prefHeight="55.0" prefWidth="152.0" style="-fx-background-color: #a6b5c9,        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%); -fx-font-style: italic; -fx-background-insets: 0 0 -1 0,0,1; -fx-border-radius: 5,5,4; -fx-padding: 7 30 7 30; -fx-text-fill: #242d35; -fx-font-family: &quot;Helvetica&quot;; -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );" text="Restart" />
+      <Button layoutX="216.0" layoutY="207.0" mnemonicParsing="false" onAction="#save" prefHeight="55.0" prefWidth="152.0" style="-fx-background-color: #a6b5c9,        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%); -fx-font-size: 15px; -fx-font-style: italic; -fx-background-insets: 0 0 -1 0,0,1; -fx-background-radius: 5,5,4; -fx-padding: 7 30 7 30; -fx-text-fill: #242d35; -fx-font-family: &quot;Helvetica&quot;; -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );" text="Save" />
+      <Button layoutX="217.0" layoutY="287.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="152.0" style="-fx-background-color: #a6b5c9,        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%); -fx-font-size: 15px; -fx-background-radius: 5,5,4; -fx-background-insets: 0 0 -1 0,0,1; -fx-padding: 7 30 7 30; -fx-text-fill: #242d35; -fx-font-family: &quot;Helvetica&quot;; -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , -1 );" text="Exit" />
+      <ImageView fx:id="img1" fitHeight="246.0" fitWidth="318.0" layoutX="24.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="286.0" fitWidth="249.0" layoutX="329.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

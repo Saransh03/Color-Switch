@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerforHighScore">
+   <children>
+      <Label prefHeight="130.0" prefWidth="600.0" style="-fx-font-size: 30px;" text="The Current High Score is 22" />
+      <ImageView fx:id="img" fitHeight="476.0" fitWidth="600.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="499.0" layoutY="288.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="68.0" style="-fx-background-radius: 8; -fx-background-color: #000000,        linear-gradient(#7ebcea, #2f4b8f),        linear-gradient(#426ab7, #263e75),        linear-gradient(#395cab, #223768);" text="Back" />
+   </children>
+</AnchorPane>
